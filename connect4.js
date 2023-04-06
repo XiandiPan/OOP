@@ -149,3 +149,18 @@ function checkForWin() {
 
 makeBoard();
 makeHtmlBoard();
+
+class Game {
+  constructor(height = 6,width = 7,board = []){
+    this.height = height;
+    this.width = width;
+    this.board = board;
+  }
+
+  
+}
+
+
+
+
+
